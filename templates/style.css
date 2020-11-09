@@ -1,0 +1,29 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+body {
+background: rgb(33,140,251);
+background: linear-gradient(180deg, rgba(33,140,251,1) 9%, rgba(255,255,255,1) 100%);
+}
+
+img.character {
+  max-width: 300px;
+  margin: auto;
+}
+
+.player-tile img.character {
+  max-width: 200px;
+  margin: auto;
+}
+
+.skill-icon {
+  height: 36px;
+  font-size: 1em;
+}

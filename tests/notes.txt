@@ -1,0 +1,5 @@
+Player - create new player based on character
+	- generate stats in the given intervals
+	a) normal interval
+	b) min == max
+	c) min > max
